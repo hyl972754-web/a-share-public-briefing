@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "scheduled_at": "2026-11-18T08:00:00+08:00",
+  "cutoff_at": "2026-11-18T21:41:41.632121+08:00",
+  "window_start": "2026-11-17T21:41:41.632121+08:00",
+  "prepared_at": "2026-11-18T21:41:41.632121+08:00",
+  "is_demo": false,
+  "status": "partial",
+  "coverage": {
+    "policy": "unconfigured",
+    "announcement": "unconfigured",
+    "industry": "unconfigured",
+    "overseas": "ok",
+    "assets": "unconfigured",
+    "calendar": "unconfigured",
+    "risk": "unconfigured"
+  },
+  "items": [
+    {
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+      "source": "European Central Bank",
+      "published_at": "2026-11-18T17:00:00+08:00",
+      "collected_at": "2026-11-18T21:41:40.766248+08:00",
+      "category": "overseas",
+      "reliability": "A",
+      "sectors": [
+        "人工智能",
+        "金融稳定"
+      ],
+      "stocks": [],
+      "risk_note": null,
+      "is_demo": false,
+      "classification_basis": "标题关键词规则，仅供研究；不是公司正式行业分类",
+      "summary": "系统独立核查提示：European Central Bank于2026-11-18发布一则信息。应核对适用对象、实施日期及附件；尚未验证其对A股个股业绩或价格的影响。",
+      "summary_method": "independent_metadata_analysis_v1",
+      "source_id": "ecb-press",
+      "license_basis_url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+      "license_checked_on": "2026-11-18",
+      "id": "269adbdfbf7d894bb40710afa1e210c6ea2f93729d8511bbeb2e4fdd519ac286"
+    }
+  ],
+  "top_ids": [
+    "269adbdfbf7d894bb40710afa1e210c6ea2f93729d8511bbeb2e4fdd519ac286"
+  ],
+  "themes": [
+    {
+      "name": "人工智能",
+      "evidence_ids": [
+        "269adbdfbf7d894bb40710afa1e210c6ea2f93729d8511bbeb2e4fdd519ac286"
+      ],
+      "status": "研究观察，非收益判断"
+    },
+    {
+      "name": "金融稳定",
+      "evidence_ids": [
+        "269adbdfbf7d894bb40710afa1e210c6ea2f93729d8511bbeb2e4fdd519ac286"
+      ],
+      "status": "研究观察，非收益判断"
+    }
+  ],
+  "risks": [],
+  "ranking_method": "来源级别优先、发布时间倒序；非阅读量或涨幅榜",
+  "edition": "snapshot",
+  "edition_label": "真实采集验收快照（非08:00日报）",
+  "generated_at": "2026-11-18T21:41:41.632121+08:00",
+  "sources": [
+    {
+      "id": "fed-press",
+      "source": "Federal Reserve Board",
+      "feed_url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "allowed_hosts": [
+        "www.federalreserve.gov"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.federalreserve.gov/disclaimer.htm",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/newsevents/pressreleases/"
+        ],
+        "restriction": "仅Board自身公有领域发布，署名Federal Reserve Board；排除第三方、图片、标识、模型和单独声明受限内容。仅保留标题及元数据。"
+      },
+      "checked_at": "2026-11-18T21:41:39.208579+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 20,
+      "error_type": null,
+      "reliability": "A"
+    },
+    {
+      "id": "ecb-press",
+      "source": "European Central Bank",
+      "feed_url": "https://www.ecb.europa.eu/rss/press.html",
+      "allowed_hosts": [
+        "www.ecb.europa.eu"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/press/pr/"
+        ],
+        "restriction": "准确署名ECB，独立分析明确标记；排除署名作品、第三方、图片及标识，不嵌套原站。"
+      },
+      "checked_at": "2026-11-18T21:41:40.767716+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 3,
+      "error_type": null,
+      "reliability": "A"
+    },
+    {
+      "id": "mofcom-original",
+      "source": "商务部网站",
+      "feed_url": "https://www.mofcom.gov.cn/xwfb/index.html",
+      "allowed_hosts": [
+        "www.mofcom.gov.cn"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.mofcom.gov.cn/fzlm/wzsm/index.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/xwfb/xwfyrth/art/",
+          "/xwfb/rcxwfb/art/",
+          "/xwfb/sjfzrfb/art/"
+        ],
+        "restriction": "必须逐条标注原创；署名“文章来源：商务部网站”；转载、编译、摘编及第三方内容一律排除。"
+      },
+      "checked_at": "2026-11-18T21:41:41.632114+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 4,
+      "error_type": null,
+      "reliability": "A"
+    }
+  ],
+  "limitations": [
+    "免费RSS样本，不覆盖全部公告、行情或风险",
+    "板块是标题关键词观察，股票代码只取原题显式代码",
+    "仅许可范围内原标题和元数据；核查提示为系统独立模板，不是新闻摘要；不保存正文、图片或受保护摘要",
+    "RSS可能只保留近期条目；迟跑可能遗漏盘前消息"
+  ],
+  "report_id": "e0f17a167538630d0bb5c0c127f565236bd6d034574d05e6ce0a231764480c1e"
+}

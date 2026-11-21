@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "latest_success_date": "2026-11-18",
+  "reports": [
+    {
+      "date": "2026-11-18",
+      "file": "data/reports/2026-11-18.json",
+      "generated_at": "2026-11-18T21:41:41.632121+08:00",
+      "count": 1,
+      "edition": "snapshot",
+      "status": "partial"
+    }
+  ]
+}

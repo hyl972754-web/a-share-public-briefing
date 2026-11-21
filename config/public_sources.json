@@ -1,0 +1,96 @@
+{
+  "sources": [
+    {
+      "id": "cns-finance",
+      "publisher": "中国新闻网财经RSS",
+      "url": "https://www.chinanews.com.cn/rss/finance.xml",
+      "allowed_hosts": [
+        "www.chinanews.com.cn"
+      ],
+      "category": "industry",
+      "reliability": "B",
+      "license_reviewed": false,
+      "enabled": false,
+      "discovery_url": "https://www.chinanews.com.cn/rss/",
+      "notes": "无公开再发布授权；旧30条验收快照仅限本地，禁止进入公开包。",
+      "public_reuse": {
+        "decision": "blocked",
+        "basis_url": "https://www.chinanews.com.cn/end_navigation/11.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [],
+        "restriction": "未经授权不得公开再发布；RSS可访问不是许可。"
+      }
+    },
+    {
+      "id": "fed-press",
+      "publisher": "Federal Reserve Board",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "allowed_hosts": [
+        "www.federalreserve.gov"
+      ],
+      "category": "overseas",
+      "reliability": "A",
+      "license_reviewed": true,
+      "enabled": true,
+      "discovery_url": "https://www.federalreserve.gov/feeds/feeds.htm",
+      "notes": "仅美联储自身发布；不是完整隔夜行情。",
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.federalreserve.gov/disclaimer.htm",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/newsevents/pressreleases/"
+        ],
+        "restriction": "仅Board自身公有领域发布，署名Federal Reserve Board；排除第三方、图片、标识、模型和单独声明受限内容。仅保留标题及元数据。"
+      }
+    },
+    {
+      "id": "ecb-press",
+      "publisher": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "allowed_hosts": [
+        "www.ecb.europa.eu"
+      ],
+      "category": "overseas",
+      "reliability": "A",
+      "license_reviewed": true,
+      "enabled": true,
+      "notes": "仅机构新闻稿；排除署名演讲、采访、研究论文和第三方内容。 官方robots对通用爬虫建议间隔5秒；单次只请求一个RSS，重试至少间隔5秒。",
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/press/pr/"
+        ],
+        "restriction": "准确署名ECB，独立分析明确标记；排除署名作品、第三方、图片及标识，不嵌套原站。"
+      },
+      "request_interval_seconds": 5
+    },
+    {
+      "id": "mofcom-original",
+      "publisher": "商务部网站",
+      "url": "https://www.mofcom.gov.cn/xwfb/index.html",
+      "allowed_hosts": [
+        "www.mofcom.gov.cn"
+      ],
+      "format": "mofcom_original",
+      "category": "policy",
+      "reliability": "A",
+      "license_reviewed": true,
+      "enabled": true,
+      "notes": "最多4个详情页；逐条核对原创标记和可见发布时间，不保存正文。",
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.mofcom.gov.cn/fzlm/wzsm/index.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/xwfb/xwfyrth/art/",
+          "/xwfb/rcxwfb/art/",
+          "/xwfb/sjfzrfb/art/"
+        ],
+        "restriction": "必须逐条标注原创；署名“文章来源：商务部网站”；转载、编译、摘编及第三方内容一律排除。"
+      }
+    }
+  ]
+}

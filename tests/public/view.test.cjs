@@ -1,0 +1,14 @@
+const assert=require('node:assert/strict');
+const {beijingDay,safeLink,selectToday,stateMessage}=require('../../static_pages/app.js');
+assert.equal(beijingDay(new Date('2026-11-17T16:01:00Z')),'2026-11-18');
+assert.equal(beijingDay(new Date('2026-11-17T15:59:59Z')),'2026-11-17');
+const yesterday={latest_success_date:'2026-11-17',reports:[{date:'2026-11-17',edition:'morning'}]};
+assert.equal(selectToday(yesterday,'2026-11-18'),null);
+assert.match(stateMessage(yesterday,{state:'failed'},'2026-11-18'),/今日早报暂未更新/);
+assert.match(stateMessage(yesterday,null,'2026-11-18'),/2026-11-17/);
+const snapshot={reports:[{date:'2026-11-18',edition:'snapshot'}]};
+assert.match(stateMessage(snapshot,null,'2026-11-18'),/不是08:00/);
+assert.equal(safeLink('javascript:alert(1)'),null);
+assert.equal(safeLink('https://name:secret@example.com'),null);
+assert.equal(safeLink('https://example.com/story'),'https://example.com/story');
+console.log('Frontend timezone, stale-day, snapshot and safe-link checks passed.');

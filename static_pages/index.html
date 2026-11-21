@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="有限官方信息样本测试版，非完整A股早报；非实时行情，不提供交易指令。">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; base-uri 'self'; object-src 'none'">
+<title>测试版 · A股盘前公开资讯雷达</title><link rel="stylesheet" href="style.css"></head>
+<body><header><a class="brand" href="./">A股盘前<span>PUBLIC BRIEFING</span></a><div class="header-note">测试版 · 目标北京时间 08:00 / 08:15</div></header>
+<main><section class="hero"><div><p class="eyebrow">THE PRE-MARKET DESK</p><h1>盘前资讯雷达 · 测试版<span class="dot">.</span></h1><p class="intro">先核对消息，再形成判断。所有观察保留原始来源与时间。</p></div><button id="refresh" type="button">刷新数据 ↻</button></section>
+<section class="notice warn" role="note"><strong>测试版 · 有限官方信息样本，非完整A股早报。</strong>首次本地验收仅1条许可范围内的新闻元数据；当前数量与采集时间以所选报告为准。未覆盖的信息保留缺口，不凑数。</section>
+<section id="notice" class="notice" role="status" aria-live="polite">正在读取日报索引…</section>
+<section class="stats"><div><small>最近成功更新日期</small><strong id="last-success">—</strong></div><div><small>当前报告日期</small><strong id="report-date">—</strong></div><div><small>数据最后更新时间</small><strong id="updated">—</strong></div></section>
+<section class="toolbar"><div class="view-buttons"><button id="today" class="active" type="button">今日早报</button><button id="history" type="button">历史归档</button></div><label>归档日期 <select id="archive" aria-label="归档日期"><option value="">请选择日期</option></select></label></section>
+<section id="empty" class="empty" hidden><h2>今日早报暂未更新</h2><p>不会用昨天的内容替代今天。你可以切换历史归档，查看最近成功生成的版本。</p></section>
+<div id="content" hidden><div class="report-heading"><h2 id="edition">盘前日报</h2><p id="meta"></p></div><div id="coverage" class="coverage"></div>
+<div class="layout"><section><div class="section-heading"><h2>热点样本（最多10条）</h2><span id="news-count"></span></div><p class="hint">按来源级别与发布时间排序，非涨幅榜。标题在许可范围内保留；核查提示由系统独立生成，不是新闻摘要。</p><label class="filter">分类 <select id="category" aria-label="新闻分类"><option value="all">全部类别</option></select></label><div id="news"></div></section>
+<aside><section class="side-card"><p class="eyebrow">WATCHLIST</p><h2>观察主题（最多3项）</h2><div id="themes"></div></section><section class="side-card risk"><p class="eyebrow">RISK RADAR</p><h2>风险线索（最多3项）</h2><div id="risks"></div></section><section class="side-card"><h2>来源与边界</h2><div id="sources"></div></section></aside></div></div>
+<footer><p>仅供信息研究，不构成投资建议。标题关键词不代表利好、利空或确定的交易机会。</p><p>GitHub定时任务可能延迟；缺少合格信息时不凑数。没有实时行情、付费模型或证券账户连接。</p></footer></main><script src="app.js"></script></body></html>

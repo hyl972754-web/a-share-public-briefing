@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "attempt_date": "2026-11-18",
+  "attempted_at": "2026-11-18T21:43:23.704013+08:00",
+  "state": "preserved",
+  "latest_success_date": "2026-11-18",
+  "accepted_items_this_attempt": 1,
+  "sources": [
+    {
+      "id": "fed-press",
+      "source": "Federal Reserve Board",
+      "feed_url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "allowed_hosts": [
+        "www.federalreserve.gov"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.federalreserve.gov/disclaimer.htm",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/newsevents/pressreleases/"
+        ],
+        "restriction": "仅Board自身公有领域发布，署名Federal Reserve Board；排除第三方、图片、标识、模型和单独声明受限内容。仅保留标题及元数据。"
+      },
+      "checked_at": "2026-11-18T21:43:17.462916+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 20,
+      "error_type": null,
+      "reliability": "A"
+    },
+    {
+      "id": "ecb-press",
+      "source": "European Central Bank",
+      "feed_url": "https://www.ecb.europa.eu/rss/press.html",
+      "allowed_hosts": [
+        "www.ecb.europa.eu"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/press/pr/"
+        ],
+        "restriction": "准确署名ECB，独立分析明确标记；排除署名作品、第三方、图片及标识，不嵌套原站。"
+      },
+      "checked_at": "2026-11-18T21:43:18.798230+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 3,
+      "error_type": null,
+      "reliability": "A"
+    },
+    {
+      "id": "mofcom-original",
+      "source": "商务部网站",
+      "feed_url": "https://www.mofcom.gov.cn/xwfb/index.html",
+      "allowed_hosts": [
+        "www.mofcom.gov.cn"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.mofcom.gov.cn/fzlm/wzsm/index.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/xwfb/xwfyrth/art/",
+          "/xwfb/rcxwfb/art/",
+          "/xwfb/sjfzrfb/art/"
+        ],
+        "restriction": "必须逐条标注原创；署名“文章来源：商务部网站”；转载、编译、摘编及第三方内容一律排除。"
+      },
+      "checked_at": "2026-11-18T21:43:23.704006+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 4,
+      "error_type": null,
+      "reliability": "A"
+    }
+  ],
+  "message": "成功日报不覆盖；查看归档日期与版本标记"
+}
