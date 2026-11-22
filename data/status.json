@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "attempt_date": "2026-11-21",
-  "attempted_at": "2026-11-21T21:57:59.633848+08:00",
-  "state": "success",
+  "attempt_date": "2026-11-22",
+  "attempted_at": "2026-11-22T12:15:58.857407+08:00",
+  "state": "failed",
   "latest_success_date": "2026-11-21",
-  "accepted_items_this_attempt": 2,
+  "accepted_items_this_attempt": 0,
   "sources": [
     {
       "id": "fed-press",
@@ -22,7 +22,7 @@
         ],
         "restriction": "仅Board自身公有领域发布，署名Federal Reserve Board；排除第三方、图片、标识、模型和单独声明受限内容。仅保留标题及元数据。"
       },
-      "checked_at": "2026-11-21T21:57:53.335121+08:00",
+      "checked_at": "2026-11-22T12:15:53.169847+08:00",
       "fetch_status": "ok",
       "parsed_count": 20,
       "error_type": null,
@@ -44,7 +44,7 @@
         ],
         "restriction": "准确署名ECB，独立分析明确标记；排除署名作品、第三方、图片及标识，不嵌套原站。"
       },
-      "checked_at": "2026-11-21T21:57:53.662990+08:00",
+      "checked_at": "2026-11-22T12:15:53.666498+08:00",
       "fetch_status": "ok",
       "parsed_count": 3,
       "error_type": null,
@@ -68,12 +68,12 @@
         ],
         "restriction": "必须逐条标注原创；署名“文章来源：商务部网站”；转载、编译、摘编及第三方内容一律排除。"
       },
-      "checked_at": "2026-11-21T21:57:59.633844+08:00",
+      "checked_at": "2026-11-22T12:15:58.857403+08:00",
       "fetch_status": "ok",
       "parsed_count": 4,
       "error_type": null,
       "reliability": "A"
     }
   ],
-  "message": "成功日报不覆盖；查看归档日期与版本标记"
+  "message": "采集失败；保留最近成功日报"
 }
