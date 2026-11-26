@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-26",
+  "timezone": "Asia/Shanghai",
+  "scheduled_at": "2026-11-26T08:00:00+08:00",
+  "cutoff_at": "2026-11-26T07:58:00+08:00",
+  "window_start": "2026-11-25T07:58:00+08:00",
+  "prepared_at": "2026-11-26T14:07:25.497895+08:00",
+  "is_demo": false,
+  "status": "partial",
+  "coverage": {
+    "policy": "unconfigured",
+    "announcement": "unconfigured",
+    "industry": "unconfigured",
+    "overseas": "ok",
+    "assets": "unconfigured",
+    "calendar": "unconfigured",
+    "risk": "unconfigured"
+  },
+  "items": [
+    {
+      "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
+      "source": "Federal Reserve Board",
+      "published_at": "2026-11-26T04:00:00+08:00",
+      "collected_at": "2026-11-26T14:07:19.443115+08:00",
+      "category": "overseas",
+      "reliability": "A",
+      "sectors": [],
+      "stocks": [],
+      "risk_note": null,
+      "is_demo": false,
+      "classification_basis": "标题关键词规则，仅供研究；不是公司正式行业分类",
+      "summary": "系统独立核查提示：Federal Reserve Board于2026-11-26发布一则信息。应核对适用对象、实施日期及附件；尚未验证其对A股个股业绩或价格的影响。",
+      "summary_method": "independent_metadata_analysis_v1",
+      "source_id": "fed-press",
+      "license_basis_url": "https://www.federalreserve.gov/disclaimer.htm",
+      "license_checked_on": "2026-11-18",
+      "id": "7c5713fa0f3850f2471aa72ddf0eac2ac9e5b88c116527fd04ebb434b9b48c6a"
+    },
+    {
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+      "source": "Federal Reserve Board",
+      "published_at": "2026-11-26T04:00:00+08:00",
+      "collected_at": "2026-11-26T14:07:19.443115+08:00",
+      "category": "overseas",
+      "reliability": "A",
+      "sectors": [],
+      "stocks": [],
+      "risk_note": null,
+      "is_demo": false,
+      "classification_basis": "标题关键词规则，仅供研究；不是公司正式行业分类",
+      "summary": "系统独立核查提示：Federal Reserve Board于2026-11-26发布一则信息。应核对适用对象、实施日期及附件；尚未验证其对A股个股业绩或价格的影响。",
+      "summary_method": "independent_metadata_analysis_v1",
+      "source_id": "fed-press",
+      "license_basis_url": "https://www.federalreserve.gov/disclaimer.htm",
+      "license_checked_on": "2026-11-18",
+      "id": "9eb461c602c80457f522533b6b3b25c81464c0740c364d37bf616855272c071c"
+    },
+    {
+      "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
+      "source": "European Central Bank",
+      "published_at": "2026-11-26T01:30:00+08:00",
+      "collected_at": "2026-11-26T14:07:19.743438+08:00",
+      "category": "overseas",
+      "reliability": "A",
+      "sectors": [],
+      "stocks": [],
+      "risk_note": null,
+      "is_demo": false,
+      "classification_basis": "标题关键词规则，仅供研究；不是公司正式行业分类",
+      "summary": "系统独立核查提示：European Central Bank于2026-11-26发布一则信息。应核对适用对象、实施日期及附件；尚未验证其对A股个股业绩或价格的影响。",
+      "summary_method": "independent_metadata_analysis_v1",
+      "source_id": "ecb-press",
+      "license_basis_url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+      "license_checked_on": "2026-11-18",
+      "id": "7c08d8b93fe6416929c4cedd581eb8c95f12046574b55f9fd326b48b01775a42"
+    },
+    {
+      "title": "Card payments edge past cash in shops; euro area consumers want both",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
+      "source": "European Central Bank",
+      "published_at": "2026-11-25T18:00:00+08:00",
+      "collected_at": "2026-11-26T14:07:19.743438+08:00",
+      "category": "overseas",
+      "reliability": "A",
+      "sectors": [],
+      "stocks": [],
+      "risk_note": null,
+      "is_demo": false,
+      "classification_basis": "标题关键词规则，仅供研究；不是公司正式行业分类",
+      "summary": "系统独立核查提示：European Central Bank于2026-11-25发布一则信息。应核对适用对象、实施日期及附件；尚未验证其对A股个股业绩或价格的影响。",
+      "summary_method": "independent_metadata_analysis_v1",
+      "source_id": "ecb-press",
+      "license_basis_url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+      "license_checked_on": "2026-11-18",
+      "id": "984babde1d5fd27af599bb8c7b061fb7e5a0f42de3839a42603161dd8862f721"
+    }
+  ],
+  "top_ids": [
+    "7c5713fa0f3850f2471aa72ddf0eac2ac9e5b88c116527fd04ebb434b9b48c6a",
+    "9eb461c602c80457f522533b6b3b25c81464c0740c364d37bf616855272c071c",
+    "7c08d8b93fe6416929c4cedd581eb8c95f12046574b55f9fd326b48b01775a42",
+    "984babde1d5fd27af599bb8c7b061fb7e5a0f42de3839a42603161dd8862f721"
+  ],
+  "themes": [],
+  "risks": [],
+  "ranking_method": "来源级别优先、发布时间倒序；非阅读量或涨幅榜",
+  "edition": "morning",
+  "edition_label": "08:00盘前日报",
+  "generated_at": "2026-11-26T14:07:25.497895+08:00",
+  "sources": [
+    {
+      "id": "fed-press",
+      "source": "Federal Reserve Board",
+      "feed_url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "allowed_hosts": [
+        "www.federalreserve.gov"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.federalreserve.gov/disclaimer.htm",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/newsevents/pressreleases/"
+        ],
+        "restriction": "仅Board自身公有领域发布，署名Federal Reserve Board；排除第三方、图片、标识、模型和单独声明受限内容。仅保留标题及元数据。"
+      },
+      "checked_at": "2026-11-26T14:07:19.445156+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 20,
+      "error_type": null,
+      "reliability": "A"
+    },
+    {
+      "id": "ecb-press",
+      "source": "European Central Bank",
+      "feed_url": "https://www.ecb.europa.eu/rss/press.html",
+      "allowed_hosts": [
+        "www.ecb.europa.eu"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/press/pr/"
+        ],
+        "restriction": "准确署名ECB，独立分析明确标记；排除署名作品、第三方、图片及标识，不嵌套原站。"
+      },
+      "checked_at": "2026-11-26T14:07:19.743964+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 4,
+      "error_type": null,
+      "reliability": "A"
+    },
+    {
+      "id": "mofcom-original",
+      "source": "商务部网站",
+      "feed_url": "https://www.mofcom.gov.cn/xwfb/index.html",
+      "allowed_hosts": [
+        "www.mofcom.gov.cn"
+      ],
+      "public_reuse": {
+        "decision": "allowed",
+        "basis_url": "https://www.mofcom.gov.cn/fzlm/wzsm/index.html",
+        "checked_on": "2026-11-18",
+        "allowed_article_prefixes": [
+          "/xwfb/xwfyrth/art/",
+          "/xwfb/rcxwfb/art/",
+          "/xwfb/sjfzrfb/art/"
+        ],
+        "restriction": "必须逐条标注原创；署名“文章来源：商务部网站”；转载、编译、摘编及第三方内容一律排除。"
+      },
+      "checked_at": "2026-11-26T14:07:25.497892+08:00",
+      "fetch_status": "ok",
+      "parsed_count": 4,
+      "error_type": null,
+      "reliability": "A"
+    }
+  ],
+  "limitations": [
+    "免费RSS样本，不覆盖全部公告、行情或风险",
+    "板块是标题关键词观察，股票代码只取原题显式代码",
+    "仅许可范围内原标题和元数据；核查提示为系统独立模板，不是新闻摘要；不保存正文、图片或受保护摘要",
+    "RSS可能只保留近期条目；迟跑可能遗漏盘前消息"
+  ],
+  "report_id": "e9db1db746af141d0822accbf4a9056ddecca3b1417422127e5d65fcfcac3c77"
+}
